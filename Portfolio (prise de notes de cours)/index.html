@@ -12,6 +12,7 @@
         <nav class="navbar">
             <a href="index.html">Page d'accueil</a>
             <img class="logo" src="images/logo.png" alt="Logo">
+            <!-- onclick="sayHi()" -->
             <a href="contact.html">contact</a>
         </nav>/.navbar
         
@@ -24,7 +25,7 @@
 
     <section class="cards-container">
 
-        <div class="card">
+        <div class="card text-blue">
             <img class="logo" src="images/logo.png" alt="Logo">
             <p>MACHIN</p>
         </div>/.card
@@ -34,10 +35,10 @@
             <p>MACHIN</p>
         </div>/.card
 
-        <div class="card">
+        <div class="card bg-red">
             <img class="logo" src="images/logo.png" alt="Logo">
             <p>MACHIN</p>
-        </div>/.card
+        </div>/.card.text-blue
 
         <div class="card">
             <img class="logo" src="images/logo.png" alt="Logo">
@@ -45,6 +46,20 @@
         </div>/.card
 
     </section>/.cards-container
+
+    <section>
+        <form action="">
+            <label for="name">Nom :</label>
+            <input id="name" type="text" placeholder="AAAAAAAA">
+            <p id="name-error" class="error hidden">Le nom ne doit pas être vide!</p>
+
+            <input type="email" name="" id="">
+
+            <label for="message">Message:</label>
+            <textarea name ="" id="message"></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
 
     <script src="main.js"></script>
 </body>

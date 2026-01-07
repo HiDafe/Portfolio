@@ -13,6 +13,7 @@ body {
 .header {
     height: 100vh;
     background-image: url(images/image_01.png);
+    filter:brightness(10%);
 }
 
 .logo {
@@ -70,7 +71,53 @@ p {
     gap: 2.5em;
 }
 
+.text-yellow {
+    color: yellow
+}
+
+.text-blue p {
+    color:rgb(98, 184, 255)
+}
+
+.card.bg-red {
+    background-color: rgb(201, 44, 44);
+}
+
+.card:hover {
+    border: 2px solid rgb(255, 255, 255)
+}
+
 .cards-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.border-yellow {
+    border: yellow 3px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+label {
+    color: white ;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+.hidden {
+    visibility:hidden;
+    /* display:none; */
 }
