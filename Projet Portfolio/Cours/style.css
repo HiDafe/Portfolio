@@ -69,6 +69,7 @@ p {
     border: 2px solid rgb(145, 145, 145);
     padding: 30px;
     gap: 2.5em;
+    transition: 2s;
 }
 
 .text-yellow {

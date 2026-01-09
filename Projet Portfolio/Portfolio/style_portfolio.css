@@ -6,44 +6,85 @@
 }
 
 .navbar {
-    padding:50px;
+    padding:30px;
     font-size: 24px;
     gap: 30px;
     background: gray;
+    border-bottom: black 3px solid;
 }
 
-.a1 , .a2 , .a3 {
+a {
     text-decoration: none;
     color:black;
-    /* enlève le fait que ce soit souligner car c'est des liens */
-}
-
-.a1 {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-}
-
-.a2 {
-    display: flex;
-    align-items: end;
-    justify-content:end;
-}
-
-.a3 {
-    display: flex;
-    align-items: end;
-    justify-content:end;
 }
 
 .div1 , .div2 {
     padding: 30px;
+    padding-top:50px;
 }
 
 .div1 {
     background-color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discover_more {
+    background-color: rgb(88, 88, 88);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .div2 {
     background-color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    width:550px;
+    height:550px;
+    clip-path: circle(50%);
+    border: black 3px solid;
+    border-radius: 50%;
+    margin:20px;
+    /* clip-path trouvé sur w3schools.com "Image shapes" */
+}
+
+.img_game_design {
+    width:750px;
+    height:530,25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:black 3px solid;
+    gap:30px;
+}
+
+h1 {
+    display:flex;
+    font-size: 90px;
+    align-items: center;
+    justify-content: start;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display:flex;
+    font-size: 65px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
+}
+
+h3 {
+    flex-direction: column;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
 }
