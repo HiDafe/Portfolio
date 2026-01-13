@@ -1,0 +1,124 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    padding:30px;
+    font-size: 24px;
+    gap: 30px;
+    background: gray;
+    border-bottom: black 3px solid;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.div1 , .div2 {
+    padding: 30px;
+    padding-top:50px;
+}
+
+.div1 {
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discover_more {
+    background-color: rgb(88, 88, 88);
+    padding-bottom: 20px;
+}
+
+.div2 {
+    background-color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    width:550px;
+    height:550px;
+    clip-path: circle(50%);
+    border: black 3px solid;
+    border-radius: 50%;
+    margin:20px;
+    margin-right: 40px;
+    /* clip-path trouvé sur w3schools.com "Image shapes" */
+}
+
+.img_game_design {
+    width:750px;
+    height:530,25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:black 3px solid;
+    gap:30px;
+}
+
+.img_target_render {
+    width:750px;
+    height:422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:black 3px solid;
+    gap:30px;
+
+    /* cherché sur cloudinary \/ */
+    background-image:url("images/Target_Render_01.png");
+    background-size:cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.img_target_render:hover {
+    background-image:url("images/Target_Render_02.png");
+
+}
+
+h1 {
+    display:flex;
+    font-size: 90px;
+    align-items: center;
+    justify-content: start;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display:flex;
+    font-size: 65px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
+}
+
+h3 {
+    flex-direction: column;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
+}
+
+.mySlides {
+    display:none;
+    width:750px;
+    height:530,25px;
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer;
+}
+
+.w3-badge {
+    height:13px;width:13px;padding:0;
+}
