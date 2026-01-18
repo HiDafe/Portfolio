@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="home_page.html">Home</a>
+            <a style="float:right;padding-left:50px" , href="contact_page.html">Contact</a>
+            <!-- float:right trouvé sur w3schools.com "Horizontal navbar" -->
+        </nav>
+    </header>
+</body>
+
+<!-- \/ pris du cours \/ -->
+<div class="div1">
+    <div class="contact_me">
+        <div>
+            <h2 class="contact_me_text">Contactez-moi</h2>
+        </div>
+    </div>
+    <div>
+        <form action="">
+            <label for="name">Nom :</label>
+            <p id="name-error" class="error hidden">Le nom ne doit pas être vide!</p>
+            <input id="name" type="text"> <br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="" id=""> <br> <br>
+
+            <label for="sujet">Sujet:</label>
+            <input name ="" id="sujet"></input> <br> <br>
+
+            <label for="message">Message:</label>
+            <p id="msg-error" class="error hidden">Le message doit contenir au-moins 10 caractères!</p>
+            <textarea name ="" id="message"></textarea> <br> <br>
+
+            <input type="submit" value="Envoyer" class="prettier_submit">
+        </form>
+    </div>
+</div>
+
+<footer>
+        <nav class="navbar" style="border-top: black 3px solid ; background-color: rgb(119, 119, 119)">
+            <a href="home_page.html">Home</a>
+            <a style="float:right;padding-left:50px" , href="contact_page.html">Contact</a>
+            <!-- float:right trouvé sur w3schools.com "Horizontal navbar" -->
+        </nav>
+</footer>
+
+    <script src="contact.js"></script>
+</html>
