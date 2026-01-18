@@ -1,0 +1,206 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    padding:30px;
+    font-size: 30px;
+    gap: 30px;
+    background: rgb(119, 119, 119);
+    border-bottom: black 3px solid;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.div1 , .div2 {
+    padding: 30px;
+    padding-top:50px;
+}
+
+.div1 {
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discover_more {
+    background-color: rgb(88, 88, 88);
+    padding-bottom: 20px;
+}
+
+.div2 {
+    background-color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div3 {
+    background-color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+    width:550px;
+    height:550px;
+    clip-path: circle(50%);
+    /* clip-path trouvé sur w3schools.com "Image shapes" */
+    border: black 3px solid;
+    border-radius: 50%;
+    margin:20px;
+    margin-right: 40px;
+}
+
+.img_game_design {
+    width:750px;
+    height:530,25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:black 3px solid;
+    gap:30px;
+}
+
+.img_target_render {
+    width:750px;
+    height:422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:black 3px solid;
+    gap:30px;
+
+    /* cherché sur cloudinary \/ */
+    background-image:url("images/Target_Render_01.png");
+    background-size:cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.img_target_render:hover {
+    background-image:url("images/Target_Render_02.png");
+
+}
+
+h1 {
+    display:flex;
+    font-size: 90px;
+    align-items: center;
+    justify-content: start;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display:flex;
+    font-size: 65px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
+}
+
+h3 {
+    flex-direction: column;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: start;
+    font-weight: normal;
+}
+
+.slider {
+    margin:auto;
+    padding:20px;
+    max-width:800px;
+}
+
+.images_slider {
+    display:none;
+    width:750px;
+    height:530,25px;
+    border: black 3px solid;
+}
+
+.flèche_gauche , .flèche_droite {
+    font-size:30px;
+    font-weight:bolder;
+    cursor:pointer;
+    padding:10px;
+}
+
+.flèches {
+    display:flex;
+    justify-content: space-between;
+}
+
+.error {
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    visibility:hidden;
+    /* display:none; */
+}
+
+input , textarea {
+    background-color: rgb(88, 88, 88);
+    border:none;
+    border-bottom: rgb(61, 61, 61) solid 2px;
+    width:700px;
+    margin-bottom: 30px;
+    font-size:20px;
+}
+
+textarea {
+    height:100px;
+}
+
+.prettier_submit {
+    border:black solid 2px;
+    border-radius: 10px;
+    padding:5px;
+    background: rgb(119,119,119);
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.contact_me {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* aligner les éléments de la div */
+
+.contact_me_text {
+    background-color: rgb(168, 168, 168);
+    padding:50px;
+    padding-left:60px;
+    padding-right:60px;
+    border:black solid 3px;
+    border-radius:50%;
+}
+/* changer l'élément présent dans la div */
+
+label {
+    flex-direction: column;
+    display: flex;
+    font-size: 30px;
+    align-items: left;
+    justify-content: left;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
